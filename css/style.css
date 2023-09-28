@@ -1,0 +1,110 @@
+body {
+    padding: 0 25px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+.navigation {
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding-bottom: 25px;
+    justify-content: space-between;
+}
+.grosir {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Trebuchet MS'
+}
+.nav {
+    display: flex;
+}
+.navitem {
+    border: 1px solid black;
+    align-items: center;
+    padding: 5px 25px ;
+    text-decoration: none;
+    color: black;
+}
+.navitem:hover {
+    background-color: lightgray;
+}
+
+.contenttitle {
+    padding: 30 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items:center
+    
+}
+.content {
+    display: flex;
+    
+}
+.contentLeft {
+    box-sizing: border-box;
+    width: 50%;
+    margin-right: 20px;
+
+}
+.contentImage {
+    box-sizing: border-box;
+}
+.image {
+    width:500px;
+    height:500px;
+}
+.contentRight {
+    box-sizing: border-box;
+    width: 50%;
+
+}
+.contentForm {
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    background-color: rgb(238, 238, 238);
+}
+.contentForm span {
+    color: gray;
+    margin-bottom: 10px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: grey;
+    padding: 10px 0;
+    color:white;
+    cursor: pointer;
+    margin-top: 10px
+   
+}
+.button:hover {
+    background-color: black;
+}
+.contentImage {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentImage span {
+    color: grey;
+}
+.profile {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.profile span{
+    justify-content: left;
+    align-items: center
+}
